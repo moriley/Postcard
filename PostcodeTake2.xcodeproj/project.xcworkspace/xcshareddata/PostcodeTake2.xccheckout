@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C89C34A-AA3D-4241-8BF4-749912E70DB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PostcodeTake2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>31CABB238004519ED9CEA0047F252877DC68E67A</key>
+		<string>https://github.com/moriley/Postcard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PostcodeTake2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>31CABB238004519ED9CEA0047F252877DC68E67A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/moriley/Postcard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>31CABB238004519ED9CEA0047F252877DC68E67A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31CABB238004519ED9CEA0047F252877DC68E67A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PostcodeTake2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
