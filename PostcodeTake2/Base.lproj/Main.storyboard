@@ -95,13 +95,23 @@
                                     <rect key="frame" x="27" y="304" width="312" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue2-Ra-koz">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pax-dR-vji">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="32" y="79" width="312" height="65"/>
+                                    <rect key="frame" x="27" y="72" width="178" height="28"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="messageLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm7-H2-2zj">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="tintColor" red="0.98704464030000005" green="1" blue="0.59363146889999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="129" width="197" height="65"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -112,7 +122,8 @@
                                 <exclude reference="pzw-wk-oG3"/>
                                 <exclude reference="mAS-sR-C9N"/>
                                 <exclude reference="rJ9-Vm-2QM"/>
-                                <exclude reference="ue2-Ra-koz"/>
+                                <exclude reference="pax-dR-vji"/>
+                                <exclude reference="Vm7-H2-2zj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,7 +132,8 @@
                                 <include reference="pzw-wk-oG3"/>
                                 <include reference="mAS-sR-C9N"/>
                                 <include reference="rJ9-Vm-2QM"/>
-                                <include reference="ue2-Ra-koz"/>
+                                <include reference="pax-dR-vji"/>
+                                <include reference="Vm7-H2-2zj"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,7 +141,8 @@
                         <outlet property="enterMessageTextField" destination="rJ9-Vm-2QM" id="sPG-V8-4Bk"/>
                         <outlet property="enterNameTextField" destination="mAS-sR-C9N" id="yDP-wZ-9QS"/>
                         <outlet property="mailButton" destination="pzw-wk-oG3" id="eXq-WA-JlL"/>
-                        <outlet property="messageLabel" destination="ue2-Ra-koz" id="mzu-pm-9Rx"/>
+                        <outlet property="messageLabel" destination="Vm7-H2-2zj" id="TMH-EP-VIk"/>
+                        <outlet property="nameLabel" destination="pax-dR-vji" id="EqE-ef-Sep"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
